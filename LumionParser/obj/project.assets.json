@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marti\\OneDrive\\Bureau\\LumionParser\\LumionParser\\LumionParser.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\OneDrive\\Bureau\\Martin\\lumion\\LumionParser\\LumionParser\\LumionParser.csproj",
       "projectName": "LumionParser",
-      "projectPath": "C:\\Users\\marti\\OneDrive\\Bureau\\LumionParser\\LumionParser\\LumionParser.csproj",
+      "projectPath": "C:\\Users\\marti\\OneDrive\\Bureau\\Martin\\lumion\\LumionParser\\LumionParser\\LumionParser.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marti\\OneDrive\\Bureau\\LumionParser\\LumionParser\\obj\\",
+      "outputPath": "C:\\Users\\marti\\OneDrive\\Bureau\\Martin\\lumion\\LumionParser\\LumionParser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
