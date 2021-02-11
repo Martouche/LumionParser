@@ -35,46 +35,65 @@ namespace LumionParser
         {
             richTextBoxdisplay.Clear();
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
-            ///            foreach (string file in files) {
-            ///                MessageBox.Show(file, "form test", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            ///            }
             if (Path.GetExtension(files[files.Length - 1]) != ".txt" && frenchisclicked == false)
                 MessageBox.Show("Wrong extension file \nOnly accept .txt file", "Error : Wrong extension", MessageBoxButtons.OK, MessageBoxIcon.Question);
             else if (Path.GetExtension(files[files.Length - 1]) != ".txt" && frenchisclicked == true)
                 MessageBox.Show("Mauvaise extension de fichier\nseulement fichier .txt accepté", "Erreur : Mauvaise extension", MessageBoxButtons.OK, MessageBoxIcon.Question);
             else
-            {
                 parserhandler(File.ReadAllText(files[files.Length - 1]));
-            }
         }
 
         void parserhandler(string text)
         {
-            string readText = text;
-            List<string> first = readText.Split('\n').ToList();
+            List<string> first = text.Split('\n').ToList();
             List<string> second = getgoodlines(first);
-            List<string> third = cleanlines(second);
-            foreach (string lines in third)
+            List<string> englishtext = cleanlines(second);
+            List<string> frenchtext = frenchconversion(englishtext);
+            foreach (string lines in frenchtext)
                 richTextBoxdisplay.AppendText(lines);
-
         }
 
         List<string> cleanlines(List<string> fulldatas)
         {
             var good = new List<string>();
             foreach (string data in fulldatas)
-            {
                 good.Add(data.Trim() + '\n');
-            }
             return good;
         }
 
+        List<string> frenchconversion(List<string> datas)
+        {
+            var end = new List<string>();
+            StringComparison comp = StringComparison.OrdinalIgnoreCase;
+            MessageBox.Show("Wrong extension file \nOnly accept .txt file", "Error : Wrong extension", MessageBoxButtons.OK, MessageBoxIcon.Question);
+
+            foreach (string line in datas) {
+                if (line.Contains("Operating System", comp) == true)
+                    end.Add(line.Replace("Operating System", "Opérateur système"));
+                else if (line.Contains("Processor", comp) == true)
+                    end.Add(line.Replace("Processor", "Processeur"));
+                else if (line.Contains("Card name", comp) == true)
+                    end.Add(line.Replace("Card name", "Carte Graphique"));
+                else if (line.Contains("Memory", comp) == true)
+                    end.Add(line.Replace("Memory", "Mémoire RAM"));
+                else if (line.Contains("Driver Date/Size", comp) == true)
+                    end.Add(line.Replace("Driver Date/Size", "Driver Date/taille"));
+                else if (line.Contains("Page File", comp) == true)
+                    end.Add(line.Replace("Page File", "Mémoire virtuelle"));
+                else if (line.Contains("Free Space", comp) == true)
+                    end.Add(line.Replace("Free Space", "Espace libre"));
+            }
+            return end;
+
+        }
         List<string> getgoodlines(List<string> fulldatas)
         {
             var gooddatas = new List<string>();
             StringComparison comp = StringComparison.OrdinalIgnoreCase;
             foreach (string data in fulldatas) {
                 if (data.Contains("Operating System", comp) == true)
+                    gooddatas.Add(data);
+                else if (data.Contains("  Processor", comp) == true)
                     gooddatas.Add(data);
                 else if (data.Contains("Card name", comp) == true)
                     gooddatas.Add(data);

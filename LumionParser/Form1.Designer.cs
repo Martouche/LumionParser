@@ -31,13 +31,13 @@ namespace LumionParser
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LumionParserDxdiag));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonfrench = new System.Windows.Forms.Button();
             this.Englishbutton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.richTextBoxdisplay = new System.Windows.Forms.RichTextBox();
             this.labeldragdrop = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.buttonfrench = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -53,9 +53,20 @@ namespace LumionParser
             this.panel1.Size = new System.Drawing.Size(178, 893);
             this.panel1.TabIndex = 0;
             // 
+            // buttonfrench
+            // 
+            this.buttonfrench.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(117)))), ((int)(((byte)(139)))));
+            this.buttonfrench.ForeColor = System.Drawing.Color.White;
+            this.buttonfrench.Location = new System.Drawing.Point(0, 323);
+            this.buttonfrench.Name = "buttonfrench";
+            this.buttonfrench.Size = new System.Drawing.Size(178, 69);
+            this.buttonfrench.TabIndex = 2;
+            this.buttonfrench.Text = "French";
+            this.buttonfrench.UseVisualStyleBackColor = false;
+            // 
             // Englishbutton
             // 
-            this.Englishbutton.BackColor = System.Drawing.Color.Teal;
+            this.Englishbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(117)))), ((int)(((byte)(139)))));
             this.Englishbutton.ForeColor = System.Drawing.Color.White;
             this.Englishbutton.Location = new System.Drawing.Point(0, 248);
             this.Englishbutton.Name = "Englishbutton";
@@ -84,7 +95,7 @@ namespace LumionParser
             // 
             // richTextBoxdisplay
             // 
-            this.richTextBoxdisplay.BackColor = System.Drawing.Color.Teal;
+            this.richTextBoxdisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(117)))), ((int)(((byte)(139)))));
             this.richTextBoxdisplay.ForeColor = System.Drawing.Color.White;
             this.richTextBoxdisplay.Location = new System.Drawing.Point(30, 38);
             this.richTextBoxdisplay.Name = "richTextBoxdisplay";
@@ -106,8 +117,8 @@ namespace LumionParser
             // listBox1
             // 
             this.listBox1.AllowDrop = true;
-            this.listBox1.BackColor = System.Drawing.Color.Teal;
-            this.listBox1.ForeColor = System.Drawing.Color.Teal;
+            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(117)))), ((int)(((byte)(139)))));
+            this.listBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(117)))), ((int)(((byte)(139)))));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 41;
             this.listBox1.Location = new System.Drawing.Point(328, 40);
@@ -115,22 +126,11 @@ namespace LumionParser
             this.listBox1.Size = new System.Drawing.Size(1260, 250);
             this.listBox1.TabIndex = 4;
             // 
-            // buttonfrench
-            // 
-            this.buttonfrench.BackColor = System.Drawing.Color.Teal;
-            this.buttonfrench.ForeColor = System.Drawing.Color.White;
-            this.buttonfrench.Location = new System.Drawing.Point(0, 323);
-            this.buttonfrench.Name = "buttonfrench";
-            this.buttonfrench.Size = new System.Drawing.Size(178, 69);
-            this.buttonfrench.TabIndex = 2;
-            this.buttonfrench.Text = "French";
-            this.buttonfrench.UseVisualStyleBackColor = false;
-            // 
             // LumionParserDxdiag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
             this.ClientSize = new System.Drawing.Size(1716, 893);
             this.Controls.Add(this.labeldragdrop);
             this.Controls.Add(this.listBox1);
