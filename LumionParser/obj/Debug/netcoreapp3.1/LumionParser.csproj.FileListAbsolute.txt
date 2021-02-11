@@ -1,0 +1,16 @@
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.csprojAssemblyReference.cache
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.LumionParserDxdiag.resources
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.Properties.Resources.resources
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.csproj.GenerateResource.cache
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.AssemblyInfoInputs.cache
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.AssemblyInfo.cs
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.csproj.CoreCompileInputs.cache
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\LumionParser.exe
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\LumionParser.deps.json
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\LumionParser.runtimeconfig.json
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\LumionParser.runtimeconfig.dev.json
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\LumionParser.dll
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\LumionParser.pdb
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.dll
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.pdb
+C:\Users\marti\OneDrive\Bureau\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\LumionParser.genruntimeconfig.cache
