@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wsmPquKw9jFWZ8U/vo5s9K1oG2+FjaLUv/yGPhrZ6wI8pcbuv8OnYUvCCxv92WcSdDxj+o9eAs9ieupedNXVlg==",
+  "dgSpecHash": "gw4oxPlOfr/vdCBmpwWjzvUgA07K1Ph/JAIoiLGzkLgthiUUocxDeTx8i87hflemSZNE/DayLKbfCF8F0YYSGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\marti\\OneDrive\\Bureau\\Martin\\lumion\\LumionParser\\LumionParser\\LumionParser.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\marti\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.12\\microsoft.netcore.app.runtime.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\marti\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.12\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.12.nupkg.sha512",
-    "C:\\Users\\marti\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.12\\microsoft.aspnetcore.app.runtime.win-x64.3.1.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

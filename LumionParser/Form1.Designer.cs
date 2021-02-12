@@ -50,7 +50,7 @@ namespace LumionParser
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(178, 893);
+            this.panel1.Size = new System.Drawing.Size(178, 987);
             this.panel1.TabIndex = 0;
             // 
             // buttonfrench
@@ -77,6 +77,7 @@ namespace LumionParser
             // 
             // panel2
             // 
+            this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -88,9 +89,9 @@ namespace LumionParser
             // 
             this.panel3.Controls.Add(this.richTextBoxdisplay);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(178, 396);
+            this.panel3.Location = new System.Drawing.Point(178, 323);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1538, 497);
+            this.panel3.Size = new System.Drawing.Size(1536, 664);
             this.panel3.TabIndex = 1;
             // 
             // richTextBoxdisplay
@@ -99,7 +100,7 @@ namespace LumionParser
             this.richTextBoxdisplay.ForeColor = System.Drawing.Color.White;
             this.richTextBoxdisplay.Location = new System.Drawing.Point(30, 38);
             this.richTextBoxdisplay.Name = "richTextBoxdisplay";
-            this.richTextBoxdisplay.Size = new System.Drawing.Size(1483, 436);
+            this.richTextBoxdisplay.Size = new System.Drawing.Size(1483, 602);
             this.richTextBoxdisplay.TabIndex = 0;
             this.richTextBoxdisplay.Text = "";
             // 
@@ -132,7 +133,7 @@ namespace LumionParser
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            this.ClientSize = new System.Drawing.Size(1716, 893);
+            this.ClientSize = new System.Drawing.Size(1714, 987);
             this.Controls.Add(this.labeldragdrop);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.panel3);

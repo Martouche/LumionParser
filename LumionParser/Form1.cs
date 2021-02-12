@@ -36,7 +36,7 @@ namespace LumionParser
             richTextBoxdisplay.Clear();
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
             if (Path.GetExtension(files[files.Length - 1]) != ".txt" && frenchisclicked == false)
-                MessageBox.Show("Wrong extension file \nOnly accept .txt file", "Error : Wrong extension", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                MessageBox.Show("Wrong extension file\nOnly accept .txt file", "Error : Wrong extension", MessageBoxButtons.OK, MessageBoxIcon.Question);
             else if (Path.GetExtension(files[files.Length - 1]) != ".txt" && frenchisclicked == true)
                 MessageBox.Show("Mauvaise extension de fichier\nseulement fichier .txt accepté", "Erreur : Mauvaise extension", MessageBoxButtons.OK, MessageBoxIcon.Question);
             else

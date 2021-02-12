@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "LumionParser": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false,
+      "nativeDebugging": false
+    }
+  }
+}
