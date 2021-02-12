@@ -110,9 +110,9 @@ namespace LumionParser
             this.labeldragdrop.ForeColor = System.Drawing.Color.White;
             this.labeldragdrop.Location = new System.Drawing.Point(730, 73);
             this.labeldragdrop.Name = "labeldragdrop";
-            this.labeldragdrop.Size = new System.Drawing.Size(455, 54);
+            this.labeldragdrop.Size = new System.Drawing.Size(450, 54);
             this.labeldragdrop.TabIndex = 3;
-            this.labeldragdrop.Text = "Glissez votre DxDiag ici !";
+            this.labeldragdrop.Text = "Slide your DxDiag here !";
             // 
             // listBox1
             // 

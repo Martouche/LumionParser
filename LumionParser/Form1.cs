@@ -49,8 +49,13 @@ namespace LumionParser
             List<string> second = getgoodlines(first);
             List<string> englishtext = cleanlines(second);
             List<string> frenchtext = frenchconversion(englishtext);
-            foreach (string lines in frenchtext)
-                richTextBoxdisplay.AppendText(lines);
+            if (frenchisclicked == true) {
+                foreach (string lines in frenchtext)
+                    richTextBoxdisplay.AppendText(lines);
+            } else {
+                foreach (string lines in englishtext)
+                    richTextBoxdisplay.AppendText(lines);
+            }
         }
 
         List<string> cleanlines(List<string> fulldatas)
@@ -65,7 +70,6 @@ namespace LumionParser
         {
             var end = new List<string>();
             StringComparison comp = StringComparison.OrdinalIgnoreCase;
-            MessageBox.Show("Wrong extension file \nOnly accept .txt file", "Error : Wrong extension", MessageBoxButtons.OK, MessageBoxIcon.Question);
 
             foreach (string line in datas) {
                 if (line.Contains("Operating System", comp) == true)
@@ -86,6 +90,22 @@ namespace LumionParser
             return end;
 
         }
+        private void buttonfrench_Click(object sender, EventArgs e)
+        {
+            labeldragdrop.Text = "Glissez votre DxDiag ici !";
+            Englishbutton.Text = "Anglais";
+            buttonfrench.Text = "Français";
+            frenchisclicked = true;
+        }
+
+        private void buttonenglish_Click(object sender, EventArgs e)
+        {
+            labeldragdrop.Text = "Slide your DxDiag here !";
+            buttonfrench.Text = "French";
+            Englishbutton.Text = "English";
+            frenchisclicked = false;
+        }
+
         List<string> getgoodlines(List<string> fulldatas)
         {
             var gooddatas = new List<string>();
@@ -107,22 +127,6 @@ namespace LumionParser
                     gooddatas.Add(data);
             }
             return gooddatas;
-        }
-
-        private void buttonfrench_Click(object sender, EventArgs e)
-        {
-            labeldragdrop.Text = "Glissez votre DxDiag ici !";
-            Englishbutton.Text = "Anglais";
-            buttonfrench.Text = "Français";
-            frenchisclicked = true;
-        }
-
-        private void buttonenglish_Click(object sender, EventArgs e)
-        {
-            labeldragdrop.Text = "Slide your DxDiag here !";
-            buttonfrench.Text = "French";
-            Englishbutton.Text = "English";
-            frenchisclicked = false;
         }
     }
 }
