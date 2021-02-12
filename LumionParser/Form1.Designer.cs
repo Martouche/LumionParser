@@ -130,6 +130,7 @@ namespace LumionParser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
             this.ClientSize = new System.Drawing.Size(1716, 893);
             this.Controls.Add(this.labeldragdrop);

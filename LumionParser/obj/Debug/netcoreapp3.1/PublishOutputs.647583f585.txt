@@ -1,0 +1,5 @@
+C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\publish\LumionParser.exe
+C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\publish\LumionParser.dll
+C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\publish\LumionParser.deps.json
+C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\publish\LumionParser.runtimeconfig.json
+C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\publish\LumionParser.pdb
