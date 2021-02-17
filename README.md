@@ -11,7 +11,7 @@ Ouvrir le projet dans un explorateur de fichiers, aller dans LumionParser > Bin 
 
 -----------------
 
-####Meilleur utilisation
+#### Meilleure utilisation
 
 Créer un __raccourci__ de l'exe pour pouvoir l'ajouter usr le bureau facilement
 -----------------
