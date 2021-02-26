@@ -88,8 +88,8 @@ namespace LumionParser
                     end.Add(line.Replace("Free Space", "Espace libre"));
             }
             return end;
-
         }
+
         private void buttonfrench_Click(object sender, EventArgs e)
         {
             labeldragdrop.Text = "Glissez votre DxDiag ici !";
@@ -127,6 +127,11 @@ namespace LumionParser
                     gooddatas.Add(data);
             }
             return gooddatas;
+        }
+
+        private void labeldragdrop_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
