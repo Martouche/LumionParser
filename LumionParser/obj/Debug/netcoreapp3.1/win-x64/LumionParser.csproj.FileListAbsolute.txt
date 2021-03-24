@@ -217,7 +217,6 @@ C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\hostfxr.dll
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\hostpolicy.dll
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\mscordaccore.dll
-C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\mscordaccore_amd64_amd64_4.700.21.6504.dll
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\mscordbi.dll
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\mscorrc.debug.dll
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\mscorrc.dll
@@ -496,3 +495,4 @@ C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\obj\Debug
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\win-x64\LumionParser.dll
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\win-x64\LumionParser.pdb
 C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\obj\Debug\netcoreapp3.1\win-x64\LumionParser.genruntimeconfig.cache
+C:\Users\marti\OneDrive\Bureau\Martin\lumion\LumionParser\LumionParser\bin\Debug\netcoreapp3.1\win-x64\mscordaccore_amd64_amd64_4.700.21.11102.dll
