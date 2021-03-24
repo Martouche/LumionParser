@@ -6,8 +6,14 @@ Voici un petit projet qui permet de parser un dxdiag avec les informations impor
 
 #### Comment l'utiliser
 
+Windows :
 Télécharger dotnet
-Ouvrir le projet dans un explorateur de fichiers, aller dans LumionParser > Bin > Debug > netcore et ouvrir LumionParser.exe
+Vous pouvez désormais utiliser l'application.
+Vous y retrouverez un .exe dans le Debug et un dans le Release.
+
+Linux :
+ligne de commande : dotnet publish -c Release -r osx-x64 -p:PublishReadyToRun=true
+vous retrouverez l'exe dans la partie Release.
 
 -----------------
 
@@ -15,5 +21,5 @@ Ouvrir le projet dans un explorateur de fichiers, aller dans LumionParser > Bin 
 
 Créer un raccourci de l'exe pour pouvoir l'ajouter usr le bureau facilement
 
-Le chemin : LumionParser\bin\Debug\netcoreapp3.1\win-x64\LumionParser.exe
+Le chemin : LumionParser\bin\Release\netcoreapp3.1\win-x64\LumionParser.exe
 -----------------
