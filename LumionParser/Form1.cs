@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Text.RegularExpressions;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.IO;
-using System.Threading.Tasks;
+using System.Linq;
 using System.Windows.Forms;
 
 
@@ -49,10 +43,13 @@ namespace LumionParser
             List<string> second = getgoodlines(first);
             List<string> englishtext = cleanlines(second);
             List<string> frenchtext = frenchconversion(englishtext);
-            if (frenchisclicked == true) {
+            if (frenchisclicked == true)
+            {
                 foreach (string lines in frenchtext)
                     richTextBoxdisplay.AppendText(lines);
-            } else {
+            }
+            else
+            {
                 foreach (string lines in englishtext)
                     richTextBoxdisplay.AppendText(lines);
             }
@@ -71,7 +68,8 @@ namespace LumionParser
             var end = new List<string>();
             StringComparison comp = StringComparison.OrdinalIgnoreCase;
 
-            foreach (string line in datas) {
+            foreach (string line in datas)
+            {
                 if (line.Contains("Operating System", comp) == true)
                     end.Add(line.Replace("Operating System", "Opérateur système"));
                 else if (line.Contains("Processor", comp) == true)
@@ -110,7 +108,8 @@ namespace LumionParser
         {
             var gooddatas = new List<string>();
             StringComparison comp = StringComparison.OrdinalIgnoreCase;
-            foreach (string data in fulldatas) {
+            foreach (string data in fulldatas)
+            {
                 if (data.Contains("Operating System", comp) == true)
                     gooddatas.Add(data);
                 else if (data.Contains("  Processor", comp) == true)
