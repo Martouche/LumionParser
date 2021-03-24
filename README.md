@@ -8,7 +8,9 @@ Voici un petit projet qui permet de parser un dxdiag avec les informations impor
 
 Windows :
 Télécharger dotnet
+
 Vous pouvez désormais utiliser l'application.
+
 Vous y retrouverez un .exe dans le Debug et un dans le Release.
 
 Linux :
