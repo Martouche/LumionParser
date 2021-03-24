@@ -93,6 +93,7 @@ namespace LumionParser
             labeldragdrop.Text = "Glissez votre DxDiag ici !";
             Englishbutton.Text = "Anglais";
             buttonfrench.Text = "Français";
+            labelresults.Text = "Résultats obtenus :";
             frenchisclicked = true;
         }
 
@@ -101,6 +102,7 @@ namespace LumionParser
             labeldragdrop.Text = "Slide your DxDiag here !";
             buttonfrench.Text = "French";
             Englishbutton.Text = "English";
+            labelresults.Text = "Results obtained :";
             frenchisclicked = false;
         }
 
@@ -129,6 +131,41 @@ namespace LumionParser
         }
 
         private void labeldragdrop_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBoxdisplay_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonfrench_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Englishbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LumionParserDxdiag_Load(object sender, EventArgs e)
         {
 
         }
