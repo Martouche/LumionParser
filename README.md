@@ -12,8 +12,9 @@ Vous pouvez désormais utiliser l'application.
 Vous y retrouverez un .exe dans le Debug et un dans le Release.
 
 Linux :
-ligne de commande : dotnet publish -c Release -r osx-x64 -p:PublishReadyToRun=true
-vous retrouverez l'exe dans la partie Release.
+ligne de commande : dotnet publish -c Release -r osx-x64 -p:PublishReadyToRun=true .
+
+Vous retrouverez l'exe dans la partie Release.
 
 -----------------
 
