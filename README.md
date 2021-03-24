@@ -19,7 +19,8 @@ vous retrouverez l'exe dans la partie Release.
 
 #### Meilleure utilisation
 
-Créer un raccourci de l'exe pour pouvoir l'ajouter usr le bureau facilement
+Créer un raccourci de l'exe pour pouvoir l'ajouter sur le bureau facilement.
 
 Le chemin : LumionParser\bin\Release\netcoreapp3.1\win-x64\LumionParser.exe
+
 -----------------
