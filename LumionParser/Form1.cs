@@ -59,7 +59,7 @@ namespace LumionParser
         {
             var good = new List<string>();
             foreach (string data in fulldatas)
-                good.Add(data.Trim() + '\n');
+                good.Add("  " + data.Trim() + '\n');
             return good;
         }
 
@@ -70,20 +70,20 @@ namespace LumionParser
 
             foreach (string line in datas)
             {
-                if (line.Contains("Operating System", comp) == true)
-                    end.Add(line.Replace("Operating System", "Opérateur système"));
-                else if (line.Contains("Processor", comp) == true)
-                    end.Add(line.Replace("Processor", "Processeur"));
-                else if (line.Contains("Card name", comp) == true)
-                    end.Add(line.Replace("Card name", "Carte Graphique"));
-                else if (line.Contains("Memory", comp) == true)
-                    end.Add(line.Replace("Memory", "Mémoire RAM"));
-                else if (line.Contains("Driver Date/Size", comp) == true)
-                    end.Add(line.Replace("Driver Date/Size", "Driver Date/taille"));
-                else if (line.Contains("Page File", comp) == true)
-                    end.Add(line.Replace("Page File", "Mémoire virtuelle"));
-                else if (line.Contains("Free Space", comp) == true)
-                    end.Add(line.Replace("Free Space", "Espace libre"));
+                if (line.Contains("𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦", comp) == true)
+                    end.Add(line.Replace("𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦", "𝐎𝐩𝐞𝐫𝐚𝐭𝐞𝐮𝐫 𝐬𝐲𝐬𝐭𝐞𝐦𝐞"));
+                else if (line.Contains("𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐨𝐫", comp) == true)
+                    end.Add(line.Replace("𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐨𝐫", "𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐞𝐮𝐫"));
+                else if (line.Contains("𝐂𝐚𝐫𝐝 𝐧𝐚𝐦𝐞", comp) == true)
+                    end.Add(line.Replace("𝐂𝐚𝐫𝐝 𝐧𝐚𝐦𝐞", "𝐂𝐚𝐫𝐭𝐞 𝐆𝐫𝐚𝐩𝐡𝐢𝐪𝐮𝐞"));
+                else if (line.Contains("𝐌𝐞𝐦𝐨𝐫𝐲", comp) == true)
+                    end.Add(line.Replace("𝐌𝐞𝐦𝐨𝐫𝐲", "𝐌𝐞𝐦𝐨𝐢𝐫𝐞 𝐑𝐀𝐌"));
+                else if (line.Contains("𝐃𝐫𝐢𝐯𝐞𝐫 𝐃𝐚𝐭𝐞/𝐒𝐢𝐳𝐞", comp) == true)
+                    end.Add(line.Replace("𝐃𝐫𝐢𝐯𝐞𝐫 𝐃𝐚𝐭𝐞/𝐒𝐢𝐳𝐞", "𝐃𝐫𝐢𝐯𝐞𝐫 𝐃𝐚𝐭𝐞/𝐭𝐚𝐢𝐥𝐥𝐞"));
+                else if (line.Contains("𝐏𝐚𝐠𝐞 𝐅𝐢𝐥𝐞", comp) == true)
+                    end.Add(line.Replace("𝐏𝐚𝐠𝐞 𝐅𝐢𝐥𝐞", "𝐌𝐞𝐦𝐨𝐢𝐫𝐞 𝐯𝐢𝐫𝐭𝐮𝐞𝐥𝐥𝐞"));
+                else if (line.Contains("𝐅𝐫𝐞𝐞 𝐒𝐩𝐚𝐜𝐞", comp) == true)
+                    end.Add(line.Replace("𝐅𝐫𝐞𝐞 𝐒𝐩𝐚𝐜𝐞", "𝐄𝐬𝐩𝐚𝐜𝐞 𝐥𝐢𝐛𝐫𝐞"));
             }
             return end;
         }
@@ -113,19 +113,19 @@ namespace LumionParser
             foreach (string data in fulldatas)
             {
                 if (data.Contains("Operating System", comp) == true)
-                    gooddatas.Add(data);
+                    gooddatas.Add(data.Replace("Operating System", "𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦"));
                 else if (data.Contains("  Processor", comp) == true)
-                    gooddatas.Add(data);
+                    gooddatas.Add(data.Replace("  Processor", "𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐨𝐫"));
                 else if (data.Contains("Card name", comp) == true)
-                    gooddatas.Add(data);
+                    gooddatas.Add(data.Replace("Card name", "𝐂𝐚𝐫𝐝 𝐧𝐚𝐦𝐞"));
                 else if (data.Contains("  Memory", comp) == true)
-                    gooddatas.Add(data);
-                else if (data.Contains("Driver Date/size", comp) == true)
-                    gooddatas.Add(data);
+                    gooddatas.Add(data.Replace("  Memory", "𝐌𝐞𝐦𝐨𝐫𝐲"));
+                else if (data.Contains("Driver Date/Size", comp) == true)
+                    gooddatas.Add(data.Replace("Driver Date/Size", "𝐃𝐫𝐢𝐯𝐞𝐫 𝐃𝐚𝐭𝐞/𝐒𝐢𝐳𝐞"));
                 else if (data.Contains("Page File", comp) == true)
-                    gooddatas.Add(data);
+                    gooddatas.Add(data.Replace("Page File", "𝐏𝐚𝐠𝐞 𝐅𝐢𝐥𝐞"));
                 else if (data.Contains("Free Space", comp) == true)
-                    gooddatas.Add(data);
+                    gooddatas.Add(data.Replace("Free Space", "𝐅𝐫𝐞𝐞 𝐒𝐩𝐚𝐜𝐞"));
             }
             return gooddatas;
         }
