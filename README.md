@@ -1,4 +1,4 @@
-# LumionParser
+# LumionParser v1
 
 Voici un petit projet qui permet de parser un dxdiag avec les informations importantes.
 
