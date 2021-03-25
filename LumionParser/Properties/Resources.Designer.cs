@@ -59,5 +59,15 @@ namespace LumionParser.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lumion_3d_logo {
+            get {
+                object obj = ResourceManager.GetObject("lumion-3d-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

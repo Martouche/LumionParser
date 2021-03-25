@@ -111,10 +111,10 @@ namespace LumionParser
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 58);
+            this.pictureBox1.BackgroundImage = global::LumionParser.Properties.Resources.lumion_3d_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(28, 51);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(184, 229);
+            this.pictureBox1.Size = new System.Drawing.Size(204, 256);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
