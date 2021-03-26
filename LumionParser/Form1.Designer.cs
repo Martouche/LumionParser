@@ -112,6 +112,7 @@ namespace LumionParser
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::LumionParser.Properties.Resources.lumion_3d_logo;
+            this.pictureBox1.Image = global::LumionParser.Properties.Resources.lumion_3d_logo;
             this.pictureBox1.Location = new System.Drawing.Point(28, 51);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(204, 256);
