@@ -89,7 +89,7 @@ namespace LumionParser
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 41;
-            this.listBox1.Location = new System.Drawing.Point(249, 52);
+            this.listBox1.Location = new System.Drawing.Point(249, 70);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(1268, 250);
             this.listBox1.TabIndex = 4;
@@ -111,11 +111,14 @@ namespace LumionParser
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::LumionParser.Properties.Resources.lumion_3d_logo;
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::LumionParser.Properties.Resources.lumion_3d_logo;
             this.pictureBox1.Location = new System.Drawing.Point(28, 51);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(204, 256);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
